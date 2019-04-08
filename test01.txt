@@ -1,0 +1,2 @@
+#/bin/base
+date | awk {printf $4}
