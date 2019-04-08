@@ -1,2 +1,3 @@
-#/bin/base
-date | awk {printf $4}
+#/bin/bash
+date | awk '{printf $1$2$3$5}'
+echo well done!
